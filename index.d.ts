@@ -1,5 +1,5 @@
 import type { ComputedRef, DefineComponent, MaybeRefOrGetter, Ref } from 'vue';
-import type { BrowserCheck, NumraRequestError } from '@numra/browser';
+import type { BrowserCheck, NumraRequestError } from '@getnumra/browser';
 
 export interface UseNumraCheckOptions {
   /** Your own backend, mounted by one of the Numra server packages. */
@@ -37,5 +37,5 @@ export declare const RiskBadge: DefineComponent<{
   badgeStyle?: Record<string, unknown>;
 }>;
 
-export { riskStateFor, RISK_STATES, NumraRequestError } from '@numra/browser';
-export type { BrowserCheck, RiskState } from '@numra/browser';
+export { riskStateFor, RISK_STATES, NumraRequestError } from '@getnumra/browser';
+export type { BrowserCheck, RiskState } from '@getnumra/browser';

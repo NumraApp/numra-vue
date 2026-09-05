@@ -1,11 +1,11 @@
 import { defineComponent, h } from 'vue';
-import { badgeParts, styleString } from '@numra/browser';
+import { badgeParts, styleString } from '@getnumra/browser';
 
 /* A presentational badge. No fetching, no key, no opinion about your layout.
 
    A render function rather than a .vue single-file component, so this package
    needs no build step: what publishes to npm is what you can read here. The
-   label, the colours and the geometry come from @numra/browser, shared with
+   label, the colours and the geometry come from @getnumra/browser, shared with
    the React and Svelte packages — see there for why blacklisted outranks the
    band and why unrated has its own words. */
 

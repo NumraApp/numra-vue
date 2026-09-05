@@ -1,13 +1,13 @@
 import { computed, ref, toValue, watch, onScopeDispose } from 'vue';
-import { createCheckController, IDLE } from '@numra/browser';
+import { createCheckController, IDLE } from '@getnumra/browser';
 
 /* ═══════════════════════════════════════════════════════════════════════════
-   @numra/vue — the browser half, Vue-shaped
+   @getnumra/vue — the browser half, Vue-shaped
    ───────────────────────────────────────────────────────────────────────────
    No apiKey option, and no way to add one: this package talks to YOUR
    backend, the endpoint one of the server packages mounts.
 
-   Debounce, abort and stale-answer rejection live in @numra/browser's
+   Debounce, abort and stale-answer rejection live in @getnumra/browser's
    controller, shared with React and Svelte — see there for why a late answer
    is dropped by identity rather than by catching AbortError. This file turns
    that controller's state into refs and hands Vue's reactivity to it.

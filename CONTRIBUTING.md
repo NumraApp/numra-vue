@@ -1,4 +1,4 @@
-# Contributing to @numra/vue
+# Contributing to @getnumra/vue
 
 Patches are welcome. What this package renders is what a merchant's staff act
 on, so the bar for a change is a test that would have caught the bug, not a
@@ -44,7 +44,7 @@ React, Svelte and Angular packages.
 So:
 
 - Anything about *what a check means* — labels, colours, when a request fires,
-  which answer wins — belongs in **`@numra/browser`**. Fixing it here alone is
+  which answer wins — belongs in **`@getnumra/browser`**. Fixing it here alone is
   how the four bindings drift, and they have before.
 - Anything Vue-shaped — reactivity, the composable's argument handling, the
   render function, prop names — belongs here.
@@ -53,7 +53,7 @@ So:
   [numra-nuxt](https://github.com/NumraApp/numra-nuxt) if it is about the Nuxt
   server route.
 
-If your fix lands in `@numra/browser`, this package picks it up as a
+If your fix lands in `@getnumra/browser`, this package picks it up as a
 dependency bump; say so in the pull request.
 
 ## The conformance gate
