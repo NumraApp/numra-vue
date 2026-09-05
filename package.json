@@ -1,0 +1,22 @@
+{
+  "name": "@numra/vue",
+  "version": "1.0.0",
+  "description": "Vue composable and components for Numra. Calls your own backend — never holds an API key.",
+  "license": "MIT",
+  "homepage": "https://numra.ma",
+  "repository": { "type": "git", "url": "git+https://github.com/NumraApp/numra-vue.git" },
+  "bugs": { "url": "https://github.com/NumraApp/numra-vue/issues" },
+  "keywords": ["numra", "vue", "nuxt", "cod", "fraud", "morocco"],
+  "type": "module",
+  "sideEffects": false,
+  "engines": { "node": ">=22.12.0" },
+  "files": ["src", "index.d.ts", "LICENSE", "README.md"],
+  "main": "./src/index.js",
+  "types": "./index.d.ts",
+  "exports": { ".": { "types": "./index.d.ts", "default": "./src/index.js" } },
+  "scripts": { "test": "node --test \"test/*.test.js\"" },
+  "dependencies": { "@numra/browser": "^1.0.0" },
+  "peerDependencies": { "vue": "^3.3" },
+  "devDependencies": { "vue": "^3.5.13" },
+  "publishConfig": { "access": "public", "provenance": true }
+}
